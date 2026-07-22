@@ -15,6 +15,7 @@ local logger = Logger.new({
 	Prefix = script.Name,
 })
 
+
 local caveWallsFolder = assert(workspace:FindFirstChild("CaveWalls"), "Failed to find ˙CaveWalls˙ in workspace")
 local spawnedCharactersFolder =
 	assert(workspace:FindFirstChild("SpawnedCharacters"), "Failed to find 'SpawnedCharacters' folder in Workspace.")
